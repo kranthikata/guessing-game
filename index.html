@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing the number</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="./logo.png"/>
+</head>
+<body>
+    <div class="center">
+        <img
+            class="title-image"
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png"
+        />
+        <h1 class="main-heading">Find out the correct number between 1 to 100</h1>
+    </div>
+    <div class="input-container">
+        <h1 class="input-box-heading">Guess the Number</h1>
+        <input 
+            class="input-box"
+            id="inputBox"
+            placeholder="Enter a Number"
+            type="text"
+        />
+        <div>
+            <button class="button"  onclick="checkNumber()">Check</button>
+        </div>
+        <div class="center">
+            <p class="result" id="gameResult"></p>
+        </div>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
